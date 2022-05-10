@@ -1,0 +1,72 @@
+*{
+    background-color: rgb(241,242,244);
+}
+.Signup{
+    height: 670px;
+    width: 89%;
+    margin-left: 90px;
+    border-radius: 18px;
+    background-color: white;
+    padding-top: 26px;
+}
+
+.form-label{
+    text-transform: uppercase;
+    width: 300px;
+    font-size: 17px;
+    color: rgb(0,0,0,0.6);
+    background: white;
+}
+.inputs{
+    margin-top: 24px;
+    margin-left: 210px;
+    background: white;
+    
+    
+    
+}
+.form-submit-btn{
+    margin-left: 210px;
+    margin-top: 25px;
+    font-size: large;
+    padding: 8px;
+    width: 300px;
+    color: rgb(0,0,0,0.65);
+}
+.switch{
+    margin-left: 210px;
+    margin-top: 18px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color:rgb(77,123,243);
+    color: rgb(77,123,243);
+    background: white;
+    margin-bottom: 30px;
+}
+.form-input{
+    margin-top: 4px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);;
+    width: 300px;
+    outline-style: none;
+    font-size: 17px;
+    background: white;
+
+}
+img{
+    float: right;
+    width: 670px;
+    height:670px;
+    margin-right: 76.7px;
+    border-radius: 0 20px 20px 0;
+}
+
+.icons{
+    margin-left: 330px;
+    margin-top: 14px;
+}
+.face{
+    color:#1778F2;
+    margin-right: 20px;
+    height: 38px;
+    width: 38px;
+}
