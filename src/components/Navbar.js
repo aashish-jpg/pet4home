@@ -9,12 +9,12 @@ import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 
 function Navbar() {
   return (
-    <div className="nav sticky top-0 z-50 flex items-center p-2 lg:px-5 shadow-sm">
+    <div className="nav sticky top-0 z-50 flex items-center p-2 lg:px-5 shadow-sm ">
       {/* left */}
       <div className="flex items-center">
         <h1 className="font-bold  text-2xl text-white mr-10">Pets4Home</h1>
-        <div className="flex ml-2 items-center rounded-full bg-gray-200 p-2">
-          <SearchIcon className="text-gray-600" />
+        <div className=" search flex ml-2 items-center rounded-full bg-gray-200 p-2">
+          <SearchIcon className="" />
           <input
             type="text"
             placeholder="Search Pets"
@@ -23,13 +23,13 @@ function Navbar() {
         </div>
 
         {/* center */}
-        <div className="flex justify-center flex-grow">
-          <div className="flex space-x-6 md:space-x-2 mx-6">
-            <Header Icon={HomeIcon} />
-            <Header Icon={ShoppingCartIcon} />
-            <Header Icon={InfoIcon} />
-            <Header Icon={ContactPhoneIcon} />
-            <Header Icon={AccountCircleIcon}  className="align-items:flex-end"/>
+        <div className="navbar flex justify-center flex-grow " >
+          <div className="flex space-x-6 md:space-x-2 items-center mx-6  "> 
+            <Header Icon={HomeIcon} /> <span className="text-xl text-white md:space-x-2  items-center sm:h-6 mb-2 ">Home</span>
+            <Header Icon={ShoppingCartIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6 mb-2">Cart</span>
+            <Header Icon={InfoIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6  mb-2 ">About Us</span>
+            <Header Icon={ContactPhoneIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6 mb-2">Contact</span>
+            <Header Icon={AccountCircleIcon} /> <span className="text-xl text-white md:space-x-2  sm:h-6 mb-2 ">Profile</span>
           </div>
         </div>
 

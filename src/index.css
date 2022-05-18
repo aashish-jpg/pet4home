@@ -17,5 +17,10 @@ code {
 }
 
 .nav{
-  background-color: #414345;
+  background-color: #323334;
+  
+}
+.search{
+  background-color:  rgb(82, 86, 91);
+  color: rgb(245, 236, 236);
 }
