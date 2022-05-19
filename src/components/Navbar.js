@@ -29,7 +29,7 @@ function Navbar() {
             <Header Icon={ShoppingCartIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6 mb-2">Cart</span>
             <Header Icon={InfoIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6  mb-2 ">About Us</span>
             <Header Icon={ContactPhoneIcon} /> <span className="text-xl text-white md:space-x-2 items-center sm:h-6 mb-2">Contact</span>
-            <Header Icon={AccountCircleIcon} /> <span className="text-xl text-white md:space-x-2  sm:h-6 mb-2 ">Profile</span>
+            <Header Icon={AccountCircleIcon} className="hover:bg-gray-300 rounded-full" /> <span className="text-xl text-white md:space-x-2  sm:h-6 mb-2 ">Profile</span>
           </div>
         </div>
 
